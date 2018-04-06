@@ -5,71 +5,145 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#dddea9"
     tools:context="com.morales.acercade.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/boton_share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="20dp"
+            android:text="SHARE"
+            android:background="@color/Buttonshare"/>
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="150dp"
             android:layout_gravity="center"
-            android:src="@mipmap/emoji" />
+            android:layout_weight="3"
+            android:src="@mipmap/karla" />
+
+    </LinearLayout>
 
         <TextView
+            android:id="@+id/cajita1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Karla Beatriz Morales Alfaro"
-            android:layout_marginTop="24dp"
-            android:textSize="20sp"
-            android:textColor="#000"
-            android:layout_gravity="center"/>
+            android:text="Karla Morales"
+            android:textSize="25sp"
+            android:textColor="#193d0e"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
 
         <TextView
+            android:id="@+id/cajita2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Ingeniería informática"
             android:layout_marginTop="20dp"
             android:textSize="20sp"
-            android:textColor="#000"
+            android:textColor="#193d0e"
             android:layout_gravity="center"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
         android:orientation="horizontal">
 
         <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_marginLeft="20dp"
             android:layout_weight="1"
             android:src="@mipmap/git" />
 
         <TextView
-            android:layout_width="109dp"
+            android:id="@+id/cajita3"
+            android:layout_width="wrap_content"
             android:layout_height="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="5dp"
             android:text="KarlaMorales97"
-            android:textColor="#000"
+            android:textColor="#193d0e"
             android:textSize="15sp" />
 
         <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_weight="1"
-            android:src="@mipmap/git" />
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/fb" />
 
         <TextView
-            android:layout_width="109dp"
+            android:id="@+id/cajita4"
+            android:layout_width="wrap_content"
             android:layout_height="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="5dp"
-            android:text="KarlaMorales97"
-            android:textColor="#000"
+            android:text="Karla Morales"
+            android:textColor="#193d0e"
             android:textSize="15sp" />
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/gmail" />
+
+        <TextView
+            android:id="@+id/cajita5"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="00022516@uca.edu.sv"
+            android:textColor="#193d0e"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/phone" />
+
+        <TextView
+            android:id="@+id/cajita6"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="6027-2444"
+            android:textColor="#193d0e" />
+    </LinearLayout>
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_gravity="bottom"
+            android:text="Power By WorkHard"
+            android:textColor="#cc792b"
+            android:textSize="14sp"/>
     </LinearLayout>
 
 </LinearLayout>
