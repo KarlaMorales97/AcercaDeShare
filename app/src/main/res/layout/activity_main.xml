@@ -20,10 +20,12 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginLeft="20dp"
+            android:onClick="Share"
             android:text="SHARE"
             android:background="@color/Buttonshare"/>
 
         <ImageView
+            android:id="@+id/Karla"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_gravity="center"
@@ -33,10 +35,10 @@
     </LinearLayout>
 
         <TextView
-            android:id="@+id/cajita1"
+            android:id="@+id/Nombre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Karla Morales"
+            android:text="@string/Nombre"
             android:textSize="25sp"
             android:textColor="#193d0e"
             android:layout_gravity="center"
@@ -46,7 +48,7 @@
             android:id="@+id/cajita2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ingeniería informática"
+            android:text="@string/carrera"
             android:layout_marginTop="20dp"
             android:textSize="20sp"
             android:textColor="#193d0e"
@@ -71,7 +73,7 @@
             android:layout_height="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="5dp"
-            android:text="KarlaMorales97"
+            android:text="@string/github"
             android:textColor="#193d0e"
             android:textSize="15sp" />
 
@@ -87,7 +89,7 @@
             android:layout_height="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="5dp"
-            android:text="Karla Morales"
+            android:text="@string/facebook"
             android:textColor="#193d0e"
             android:textSize="15sp" />
 
@@ -111,7 +113,7 @@
             android:layout_height="20dp"
             android:layout_marginLeft="5dp"
             android:layout_marginTop="10dp"
-            android:text="00022516@uca.edu.sv"
+            android:text="@string/correouca"
             android:textColor="#193d0e"
             android:textSize="15sp" />
 
@@ -127,7 +129,7 @@
             android:layout_height="20dp"
             android:layout_marginLeft="5dp"
             android:layout_marginTop="10dp"
-            android:text="6027-2444"
+            android:text="@string/telefono"
             android:textColor="#193d0e" />
     </LinearLayout>
 
@@ -141,7 +143,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="200dp"
             android:layout_gravity="bottom"
-            android:text="Power By WorkHard"
+            android:text="@string/powered"
             android:textColor="#cc792b"
             android:textSize="14sp"/>
     </LinearLayout>

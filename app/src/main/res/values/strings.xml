@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">AcercaDe</string>
+        <string name="app_name">Acerca De</string>
+        <string name="Nombre">Karla Morales</string>
+        <string name="carrera">Ingeniería Informática</string>
+        <string name="github">KarlaMorales97</string>
+        <string name="facebook">Karla Morales</string>
+        <string name="correouca">00022516@uca.edu.sv</string>
+        <string name="telefono">6027-2444</string>
+        <string name="powered">Powered by WorkHard</string>
 </resources>
