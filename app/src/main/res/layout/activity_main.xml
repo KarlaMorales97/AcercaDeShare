@@ -21,7 +21,8 @@
             android:layout_gravity="start"
             android:layout_marginLeft="20dp"
             android:onClick="Share"
-            android:text="SHARE"
+            android:text=" SHARE
+ INFORMATION "
             android:background="@color/Buttonshare"/>
 
         <ImageView
